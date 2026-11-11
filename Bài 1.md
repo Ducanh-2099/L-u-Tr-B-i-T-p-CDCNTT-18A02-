@@ -14,8 +14,14 @@ Bước 3: Mở Command Prompt và kiểm tra bằng hai lệnh node -v và npm 
 
 Bước 4: Tạo thư mục NodeJS-Project và file hello.js.
 
+<img width="316" height="114" alt="image" src="https://github.com/user-attachments/assets/3b0f0b1f-4ada-4b7e-ba6e-8d73947c6a10" />
+
 Bước 5: Viết chương trình sử dụng hàm console.log().
 
+<img width="666" height="149" alt="image" src="https://github.com/user-attachments/assets/35d76e3d-8008-4e9c-a7b9-5a1bb4ae86bb" />
+
 Bước 6: Chạy chương trình bằng lệnh node hello.js.
+
+<img width="645" height="158" alt="image" src="https://github.com/user-attachments/assets/ff93c1de-74b2-48c7-af33-d80ac21e2f40" />
 
 Bước 7: Đưa file hello.js lên repository GitHub.
