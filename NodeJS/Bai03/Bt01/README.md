@@ -44,7 +44,7 @@ Mở Terminal tại thư mục Bt01 và thực hiện lệnh:
 
 Chương trình hiển thị danh sách năm sinh viên đạt yêu cầu trên Terminal.
 
-## 4. Hình ảnh minh chứng
+## 5. Hình ảnh minh chứng
 
 ### Hình 1: Mã nguồn bài_1.js
 
