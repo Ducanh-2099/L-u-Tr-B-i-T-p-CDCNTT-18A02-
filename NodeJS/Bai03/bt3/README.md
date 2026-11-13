@@ -1,13 +1,6 @@
 # BÀI THỰC HÀNH 03 - NODE.JS FILE SYSTEM
 
-## 1. Thông tin bài tập
-
-- Môn học: Lập trình Node.js
-- Bài thực hành: Bai03 - Bt03
-- Tên chương trình: bai03.js
-- Module sử dụng: fs
-
-## 2. Yêu cầu bài tập
+## 1. Yêu cầu bài tập
 
 - Sử dụng module fs.
 - Tạo tập tin thongtin.txt chứa họ tên và mã sinh viên.
@@ -15,11 +8,19 @@
 - Sử dụng appendFile() để ghi nối tên lớp vào cuối tập tin.
 - Đọc lại tập tin để kiểm tra nội dung đã cập nhật.
 
+## 2.Các hàm đã sử dụng
+
+- require('fs')
+- fs.writeFile()
+- fs.readFile()
+- fs.appendFile()
+- Callback và xử lý lỗi
+
 ## 3. Các bước thực hiện
 
-### Bước 1: Tạo file bai03.js
+### Bước 1: Tạo file bt3.js
 
-Tạo file bai03.js trong thư mục Bt03.
+Tạo file bt3.js trong thư mục Bt03.
 
 ### Bước 2: Khai báo module fs
 
@@ -47,29 +48,20 @@ Sử dụng fs.readFile() lần thứ hai để kiểm tra nội dung sau cập 
 
 Mở Terminal tại thư mục Bt03 và chạy lệnh:
 
-    node bai03.js
+    node bt3.js
 
-## 4. Hình ảnh minh chứng
+## 5. Hình ảnh minh chứng
 
-### Hình 1: Mã nguồn bai03.js
+### Hình 1: Mã nguồn bt3.js
 
-Chèn ảnh mã nguồn tại đây.
+<img width="868" height="738" alt="image" src="https://github.com/user-attachments/assets/6220f821-0f11-4b30-9423-872408a1ded2" />
+
 
 ### Hình 2: Kết quả chạy chương trình trên Terminal
 
-Chèn ảnh Terminal tại đây.
+<img width="921" height="300" alt="image" src="https://github.com/user-attachments/assets/17709577-6c59-47e3-b649-cbf4273a3e57" />
 
 ### Hình 3: Nội dung file thongtin.txt
 
-Chèn ảnh nội dung file tại đây.
+<img width="300" height="164" alt="image" src="https://github.com/user-attachments/assets/6939c340-af0a-4d25-8092-1ecceef6bb8c" />
 
-## 5. Kết luận
-
-Đã hoàn thành bài thực hành sử dụng module fs trong Node.js.
-
-Các kiến thức đã sử dụng:
-- require('fs')
-- fs.writeFile()
-- fs.readFile()
-- fs.appendFile()
-- Callback và xử lý lỗi
