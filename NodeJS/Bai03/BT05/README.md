@@ -20,7 +20,12 @@ npm install mongodb
 
 <img width="1063" height="165" alt="image" src="https://github.com/user-attachments/assets/b4db4e43-f738-49eb-afe0-cf2fad07fd43" />
 
-### Bước 4: Các tính toán:
+### Bước 4: Chạy chương trình
+
+ node Bài_05.js
+
+### Bước 5: Các bước tính toán:
+
 - Tìm kiếm Sinh Viên: Sử dụng find() và toán tử $gte để tìm sinhvien có điểm >=7.
 - Sắp xếp Sinh Viên: Sử dụng Sort({ diem -1 }) để sắp xếp theo thứ tự giảm dần.
 
@@ -31,7 +36,4 @@ npm install mongodb
 
 <img width="941" height="220" alt="image" src="https://github.com/user-attachments/assets/5a0a58d3-4d15-4721-956f-c1f3277e1d62" />
 
-### Bước 5: Chạy chương trình
-
- node Bài_05.js
 
