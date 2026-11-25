@@ -1,36 +1,36 @@
-# BAI TAP 09 - DELETE ONE VA DELETE MANY
+# Bài Tập 09 - DELETE ONE VÀ DELETE MANY
 
-## 1. Noi dung thuc hien
+## 1. Nội Dung
 
-- Ket noi MongoDB bang Node.js.
-- Them 5 sinh vien mau.
-- Su dung deleteOne() de xoa sinh vien co ma SV03.
-- Su dung deleteMany() de xoa sinh vien co diem duoi 5.
-- Su dung find() de hien thi danh sach sinh vien con lai.
+- Kết nối MongoDB bằng Node.js.
+- Thêm năm sinh viên mẫu.
+- Sử dụng deleteOne() xóa sinh viên SV03.
+- Sử dụng deleteMany() xóa sinh viên có điểm dưới 5.
+- Sử dụng find() để hiện thị danh sách sinh viên còn lại.
 
-## 2. Cac lenh thuc hien
+## 2. Các lệnh
 
-Khoi tao project:
+Khởi tạo Dự án:
 
 npm init -y
 
-Cai dat MongoDB:
+Cài đặt MongoDB:
 
 npm install mongodb
 
-Chay chuong trinh:
+Khởi chạy chương trình:
 
 node Bài_09.js
 
-## 3. Ket qua
+## 3. Kết quả
 
-- Them thanh cong: 5 sinh vien.
+- Thêm vào 5 sinh viên mẫu.
 
 <img width="616" height="746" alt="image" src="https://github.com/user-attachments/assets/f120046e-02dd-40b2-916b-cdf328ccdc84" />
   
-- deleteOne(): Xoa 1 sinh vien.
-- deleteMany(): Xoa 2 sinh vien.
-- Con lai: 2 sinh vien.
+- deleteOne(): Xóa 1 sinh viên.
+- deleteMany(): Xóa 2 sinh viên.
+- Còn lại: 2 sinh viên.
 
 <img width="463" height="444" alt="image" src="https://github.com/user-attachments/assets/ddf34a56-9db7-4fa1-95e2-c8f3c99fd0b7" />
 
