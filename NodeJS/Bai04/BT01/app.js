@@ -13,7 +13,7 @@ const pages = {
   '/about': ['Giới thiệu', 'Họ tên: Lưu Huỳnh Đức Anh | Lớp: CD-CNTT18A | MSSV: CDCNTT18A02'],
   '/skills': ['Kỹ năng', 'HTML, CSS, JavaScript, Node.js, Express'],
   '/hobbies': ['Sở thích', 'Chơi game, nghe nhạc, lập trình và công nghệ'],
-  '/contact': ['Liên hệ', 'Email: example@gmail.com']
+  '/contact': ['Liên hệ', 'Email: LuuD0519@gmail.com']
 };
 
 // Tạo giao diện dùng chung
