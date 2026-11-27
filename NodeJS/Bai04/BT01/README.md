@@ -1,11 +1,6 @@
 # BAI04 - BT01: WEBSITE CÁ NHÂN NODE.JS
 
-## 1. Thông tin sinh viên
-- Họ tên: Lưu Huỳnh Đức Anh
-- MSSV: CDCNTT18A02
-- Lớp: CD-CNTT18A
-
-## 2. Giới thiệu
+## 1. Giới thiệu
 Xây dựng website cá nhân sử dụng Node.js và Express.
 
 Các chức năng:
@@ -17,7 +12,7 @@ Các chức năng:
 - Xử lý lỗi HTTP 404.
 - Giao diện HTML/CSS có menu điều hướng.
 
-## 3. Các bước thực hiện
+## 2. Các bước thực hiện
 
 **Bước 1: Khởi tạo dự án**
 ```bash
@@ -39,15 +34,18 @@ npm start
 http://localhost:3000
 ```
 
-## 4. Kết quả trên máy cá nhân
+## 3. Kết quả trên máy cá nhân
 
-Chụp ảnh giao diện website và kết quả chạy trên localhost tại đây.
+<img width="1417" height="613" alt="image" src="https://github.com/user-attachments/assets/fccc9e24-452c-47bb-93bd-39803049b8b6" />
 
-![Trang chủ](images/home.png)
+<img width="922" height="540" alt="image" src="https://github.com/user-attachments/assets/610f924a-6fd8-49be-a09c-81b64ddf5326" />
 
-![Các chức năng](images/routes.png)
+<img width="843" height="548" alt="image" src="https://github.com/user-attachments/assets/fc7dd614-4045-497c-9bcf-b9f8280183b8" />
 
-![Lỗi 404](images/404.png)
+<img width="828" height="345" alt="image" src="https://github.com/user-attachments/assets/34011d4a-0929-45b1-88c6-5662325f0950" />
+
+<img width="888" height="489" alt="image" src="https://github.com/user-attachments/assets/c01a84ae-5f62-4a72-83c9-cd3382110bc0" />
+
 
 ## 5. Triển khai Hosting
 
@@ -66,10 +64,7 @@ Các bước triển khai:
 5. Start Command: `npm start`.
 6. Chọn gói Free và Deploy.
 
-**Link website:** [Bổ sung link Render tại đây]
+**Link website:** https://l-u-tr-b-i-t-p-cdcntt-18a02.onrender.com/
 
-![Kết quả triển khai](images/render.png)
+<img width="1413" height="596" alt="image" src="https://github.com/user-attachments/assets/f4c3ed3d-369f-407d-a83e-c2f9c4c04abc" />
 
-## 6. Kết luận
-
-Hoàn thành website cá nhân bằng Node.js và Express, xây dựng các Route, thiết kế giao diện HTML/CSS, xử lý lỗi 404 và triển khai ứng dụng lên hosting Render.
