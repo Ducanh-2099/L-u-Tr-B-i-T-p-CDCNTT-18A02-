@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    .container
+        h1 📝 To-Do List
+
+        form(action="/add", method="POST")
+            input(
+                type="text"
+                name="title"
+                placeholder="Nhập công việc mới..."
+                required
+            )
+            button(type="submit") Thêm
+
+        h2 Danh sách công việc
+
+        if todos.length === 0
+            p.empty Chưa có công việc nào!
+
+        ul.todo-list
+            each todo in todos
+                li(class=todo.completed ? "completed" : "")
+                    span= todo.title
+
+                    .actions
+                        form(action=`/toggle/${todo.id}`, method="POST")
+                            button(type="submit" class="complete-btn")
+                                = todo.completed ? "Hoàn tác" : "Hoàn thành"
+
+                        form(action=`/delete/${todo.id}`, method="POST")
+                            button(type="submit" class="delete-btn")
+                                | Xóa
