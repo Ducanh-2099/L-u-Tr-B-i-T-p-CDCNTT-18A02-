@@ -1,13 +1,10 @@
-
 const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Sử dụng CSS
 app.use(express.static('public'));
 
-// Nội dung các trang
 const pages = {
   '/': ['Trang chủ', 'Xin chào! Chào mừng đến website cá nhân của tôi.'],
   '/about': ['Giới thiệu', 'Họ tên: Lưu Huỳnh Đức Anh | Lớp: CD-CNTT18A | MSSV: CDCNTT18A02'],
@@ -16,7 +13,6 @@ const pages = {
   '/contact': ['Liên hệ', 'Email: LuuD0519@gmail.com']
 };
 
-// Tạo giao diện dùng chung
 function createPage(title, content) {
   return `
     <!DOCTYPE html>
@@ -49,14 +45,12 @@ function createPage(title, content) {
   `;
 }
 
-// Tạo Route tự động
 for (const [url, data] of Object.entries(pages)) {
   app.get(url, (req, res) => {
     res.send(createPage(data[0], data[1]));
   });
 }
 
-// Xử lý lỗi 404
 app.use((req, res) => {
   res.status(404).send(createPage(
     '404 - Không tìm thấy',
@@ -64,7 +58,6 @@ app.use((req, res) => {
   ));
 });
 
-// Khởi động server
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server chạy tại http://localhost:${PORT}`);
 });
